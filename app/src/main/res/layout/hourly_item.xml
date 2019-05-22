@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/txtHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif"
+        tools:text="2:00 p.m."/>
+
+    <TextView
+        android:id="@+id/txtHourTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif"
+        tools:text="24C" />
+
+    <TextView
+        android:id="@+id/txtHourPro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif"
+        tools:text="12%"
+        android:textAlignment="center"/>
+</LinearLayout>

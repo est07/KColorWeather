@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KColor Weather</string>
+    <string name="no_data">No Info</string>
+    <string name="localization">Alcatraz, California</string>
+    <string name="temp_placeholder">%d C</string>
+    <string name="precip_placeholder">%d %%</string>
+    <string name="temp">TEMP</string>
+    <string name="precip">PRECIP</string>
+    <string name="btn_daily_txt">DAILY WEATHER</string>
+    <string name="btn_hourly_txt">HOURLY WEATHER</string>
+    <string name="weather_android_string_fingerprint_icon_content_description">weather @android:string/fingerprint_icon_content_description</string>
+
+    <string name="language">es</string>
+    <string name="units">si</string>
+
+    <string name="network_error">ERROR DE RED</string>
+    <string name="retry">¿REINTENTAR?</string>
+    <string name="daily_weather">Daily Weather</string>
+    <string name="summary_of_the_week">Summary of the week</string>
+
+</resources>
